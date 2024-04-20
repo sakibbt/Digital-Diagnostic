@@ -1,0 +1,333 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+    transition: .5s;
+}
+span{
+   color: #09B073;
+}
+/*Top Bar Start*/
+.navbar-light .navbar-toggler {
+    border-color: #fff !important;
+}
+.top-bar i{
+	font-size: 22px;
+	color: #09B073;
+	margin-top: 10px;
+}
+.top-bar h6{
+	color: rgba(38, 38, 38, 0.7);;
+}
+.top-bar{
+	padding: 16px 0px 12px;
+}
+/*Top Bar End*/
+
+/*Nav Bar Start*/
+.nav-btn {
+    background-color: #09B073 !important;
+    border: none;
+    color: #fff;
+    width: 165px;
+    font-weight: 600 !important;
+    height: 50px;
+    border-radius: 6px;
+    transition: .3s;
+}
+.nav-btn:hover {
+    background-color: transparent !important;
+    border: 1px solid #09B073;
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	margin-left: 12px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #09B073 !important;
+}
+/*Nav Bar End*/
+
+/*Banner Section Start*/
+.banner{
+	width: 100%;
+}
+.banner .bg-light{
+	background: transparent !important;
+}
+.wrapper{
+	width: 100%;
+	position: absolute;
+	z-index: 9;
+	top: 100px;
+}
+.slider-content{
+	position: relative;
+}
+.social-icon a .fa-facebook-f{
+    position: fixed;
+    top: 200px;
+    left: 50px;
+    color: #fff;
+    background: #09B073;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+.social-icon a .fa-instagram{
+    position: fixed;
+    top: 280px;
+    left: 50px;
+    color: #fff;
+    background: #09B073;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+.social-icon a .fa-whatsapp{
+    position: fixed;
+    top: 360px;
+    left: 50px;
+    color: #fff;
+    background: #09B073;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+.social-icon a:hover{
+	color: #fff;
+}
+.slider-heading{
+	position: absolute;
+	top: 40%;
+	left: 36%;
+	transform: translate(-26%, -40%);
+}
+.slider-content h1{
+	color: #fff;
+	text-align: center;
+	font-weight: 600;
+	font-size: 55px;
+	line-height: 82px;
+}
+.slider-content p{
+	color: #fff;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	padding: 12px 0px 40px;
+}
+.slider-btn button {
+    background: #09B073;
+    color: #fff;
+    border: 1px solid #09B073;
+    font-weight: 600;
+    width: 272px;
+    height: 50px;
+    transition: .3s;
+    margin: 0px 14px 0px 14px;
+}
+.slider-btn button:hover{
+	background:#09B073;
+    border: 1px solid #09B073;
+}
+.slider-btn .btn1 {
+    background: transparent;
+    border: 1px solid #09B073;
+    font-weight: 600;
+    width: 272px;
+    height: 50px;
+    transition: .3s;
+}
+.slider-btn .btn1:hover{
+	background: #09B073;
+    color: #fff;
+    border: 1px solid #09B073;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 0 !important;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%, 25%);
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 12px !important;
+    height: 12px !important;
+    background: transparent !important;
+    border: 2px solid #09B073 !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #09B073 !important; 
+}
+/*Banner Section End*/
+
+/*Department Section Start*/
+.head h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2C3E50;
+}
+.head p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(44, 62, 80, 0.7);
+    padding: 20px 0px;
+}
+
+.depa-items {
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 5%);
+    border-radius: 5px;
+    margin: 20px 0px;
+    padding: 20px 0px 1px;
+}
+.depa-items:hover{
+    background: rgba(9, 176, 115, 0.03);
+}
+.depa-items p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 12px;
+    text-align: center;
+    color: #09B073;
+}
+/*Department Section End*/
+
+/*Doctors Section Start*/
+.card-body h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #09B073;
+}
+.card-body p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(44, 62, 80, 0.7); 
+}
+.card-body a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #09B073;
+    border: none;
+    padding: 12px 20px;
+    background: rgba(9, 176, 115, 0.05);
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+.card-body a:hover{
+    background: rgba(9, 176, 115, 0.05);
+    color: #09B073;
+}
+.Doctors-section {
+    margin: 70px 0px;
+}
+.card{
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    border: none !important;
+}
+/*Doctors Section End*/
+
+
+
+
+
+
+
+/*Choose Section Start*/
+.count-content{
+    background: rgba(9, 176, 115, 0.05);
+    border-radius: 5px;
+    padding: 20px 35px 10px;
+    margin: 16px 4px;
+}
+.count-content img{
+    padding-top: 4px;
+}
+
+.count-content h1{
+    font-weight: 600;
+    font-size: 40px;
+    color: #09B073;
+    margin: 0;
+}
+.count-content p{
+    font-weight: 600;
+}
+.count p{
+    font-family: Poppins;
+    font-size: 18px;
+    color: rgba(44, 62, 80, 0.7);
+    text-align: justify;
+}
+.choose-pera p{
+    margin-top: 34px;
+}
+/*Choose Section End*/
+
+/*Form Section Stat*/
+.Appointment form {
+    padding: 46px 46px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+.Appointment a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 452px;
+    height: 50px;
+    background: #09B073;
+    border-radius: 5px;
+}
+.Appointment label{
+    font-weight: 500;
+    font-size: 18px;
+    color: #09B073;
+}
+.Appointment a:hover{
+    color: #fff;
+}
+
+
+/*Form Section End*/
+

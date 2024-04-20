@@ -1,0 +1,239 @@
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = 1280px
+*/
+
+@media only screen and (max-width: 1280px) {
+  
+  /* CSS */
+ .navbar-brand img {
+    width: 150px;
+    margin-top: -12px;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 6px;
+}
+.nav-btn {
+    width: 150px;
+    height: 45px;
+}
+.slider-heading {
+    top: 47%;
+    left: 36%;
+    transform: translate(-26%, -47%);
+}
+.slider-btn .btn1 {
+    width: 230px;
+    height: 48px;
+}
+.slider-btn button {
+    width: 230px;
+    height: 48px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: -128px !important;
+}
+.social-icon a .fa-facebook-f {
+    top: 200px;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    font-size: 16px;
+}
+.social-icon a .fa-instagram {
+    top: 260px;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    font-size: 16px;
+}
+.social-icon a .fa-whatsapp {
+    top: 320px;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    font-size: 16px;
+}
+.slider-content p {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 2px 0px 5px;
+}
+  .slider-content h1 {
+    font-size: 30px;
+    line-height: 40px;
+}
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = 1024px
+*/
+
+@media only screen and (max-width: 1024px) {
+  
+  /* CSS */
+  .top-bar h6{
+    font-size: 14px;
+  }
+   .navbar-brand img {
+    width: 130px;
+}
+  .wrapper {
+    top: 130px;
+}
+.navbar-toggler {
+    border: 1px solid #09B073 !important;
+}
+ .slider-content h1 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+}
+.slider-heading {
+    top: 45%;
+    transform: translate(-26%, -45%);
+}
+.slider-content p {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0px 0px 5px;
+}
+.slider-btn .btn1 {
+    font-weight: 500;
+    font-size: 14px;
+    width: 180px;
+    height: 38px;
+    margin: 0px 5px 0px 15px;
+}
+.slider-btn button {
+    font-weight: 500;
+    font-size: 14px;
+    width: 180px;
+    height: 38px;
+    margin: 0px 14px 0px 14px;
+}
+.social-icon a .fa-facebook-f {
+    top: 150px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    font-size: 14px;
+}
+.social-icon a .fa-instagram {
+    top: 200px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    font-size: 14px;
+}
+.social-icon a .fa-whatsapp {
+    top: 250px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    font-size: 14px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: -90px !important;
+}
+}
+
+/* 
+  ##Device = Tablets, Mobiles (Landscape)
+  ##Screen = 767px
+*/
+
+@media only screen and (max-width: 767px) {
+  
+  /* CSS */
+  .owl-carousel .owl-item img {
+    height: 100vh;
+}
+  .navbar-toggler {
+    border: 1px solid #09B073 !important;
+}
+.slider-heading {
+    top: 40%;
+    transform: translate(-26%, -40%);
+}
+.slider-content h1 {
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.slider-content p {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 0px 0px 0px;
+}
+.slider-btn button {
+    width: 159px;
+    height: 34px;
+    /* transition: .3s; */
+    margin: 0px 14px 0px 14px;
+    font-size: 12px;
+}
+
+.slider-btn .btn1 {
+    width: 159px;
+    height: 34px;
+    margin: 0px 14px 0px 14px;
+    font-size: 12px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: -40px !important;
+}
+.social-icon a .fa-facebook-f {
+    top: 115px;
+    left: 14px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+}
+.social-icon a .fa-instagram {
+    top: 155px;
+    left: 14px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+}
+.social-icon a .fa-whatsapp{
+    top: 195px;
+    left: 14px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    bottom: 17% !important;
+    left: 50%;
+    transform: translate(-50%, 17%) !important;
+}
+}
+
+@media only screen and (max-width: 610px) {
+  /* CSS */
+  .owl-carousel .owl-item img {
+    height: 72vh;
+}
+  .wrapper {
+    top: 270px;
+}
+  .slider-btn .btn1 {
+    margin-bottom: 10px;
+}
+.slider-content h1 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.slider-content p {
+    font-size: 11px;
+    line-height: 13px;
+    padding: 0px 0px 0px;
+}
+}
